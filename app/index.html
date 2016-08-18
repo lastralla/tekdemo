@@ -14,17 +14,17 @@
 		<script src="features/temperature/index.js"></script>
 
 		<!-- components and services -->
-		<script src="features/temperature/services/temperatures.service.js"></script>
+    <script src="features/temperature/temperature.js"></script>
+    <script src="features/temperature/services/temperatures.service.js"></script>
     <script src="features/temperature/tek-temperature-data/tek-temperature-data.component.js"></script>
     <script src="features/temperature/tek-add-temperature/tek-add-temperature.component.js"></script>
+		<script src="features/temperature/tek-calculations-display/tek-calculations-display.component.js"></script>
 
+	  <link rel="stylesheet" href="features/temperature/tek-calculations-display/tek-calculations-display.css">
 
 	</head>
 	<body>
-		<h1>Temperature Calculator Demo</h1>
-		<div>
-			<tek-temperature-data></tek-temperature-data>
-			<tek-add-temperature></tek-add-temperature>
-		</div>
+    <h1>Temperature Calculator Demo</h1>
+		<tek-temperature></tek-temperature>
 	</body>
 </html>

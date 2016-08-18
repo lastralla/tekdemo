@@ -1,5 +1,7 @@
 ## Demo App
 
+Just a little demo app to test out a more modern Angular components-based project structure.
+
 ## Setup
 
 ```

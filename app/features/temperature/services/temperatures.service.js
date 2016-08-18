@@ -29,9 +29,7 @@ function addTemperature(newTemp) {
 
   this.temperatures.push(Number.parseFloat(newTemp));
 
-  // _$rootScope.$emit('temperature.newTemp', function(evt, data) {
-  //  console.log('temperature.newTemp', this.getTemperatures());
-  // });
+  _$rootScope.$emit('temperature.newTemp', this.getTemperatures());
 
   return this.getTemperatures();
 }

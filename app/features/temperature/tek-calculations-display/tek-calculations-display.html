@@ -1,0 +1,29 @@
+<section class="calculations-display">
+	<h2 >Running Totals</h2>
+
+	<div class="calculations">
+		<div class="calculation"
+				 ng-if="$ctrl.mean">
+			<h3>Mean</h3>
+			<div class="value">{{$ctrl.mean}}</div>
+		</div>
+
+		<div class="calculation"
+				 ng-if="$ctrl.median">
+			<h3>Median</h3>
+			<div class="value">{{$ctrl.median}}</div>
+		</div>
+
+		<div class="calculation"
+				 ng-if="$ctrl.mode">
+			<h3>Mode</h3>
+			<div class="value">{{$ctrl.mode}}</div>
+		</div>
+
+		<div class="calculation"
+				 ng-if="$ctrl.range">
+			<h3>Range</h3>
+			<div class="value">{{$ctrl.range}}</div>
+		</div>
+	</div>
+</section>

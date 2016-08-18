@@ -1,0 +1,10 @@
+.calculations-display {}
+
+.calculations-display .calculations {
+  display: flex;
+}
+
+.calculations-display .calculations .calculation {
+  padding: 10px;
+  text-align: center;
+}
