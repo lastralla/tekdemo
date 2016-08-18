@@ -1,0 +1,11 @@
+<div class="temperature-data">
+	<h2>Entered Values</h2>
+	<div class="temperature-data-collection"
+			 ng-if="$ctrl.temperatures.length > 0">
+		<span ng-repeat="temp in $ctrl.temperatures track by $index">{{temp}}&nbsp;</span>
+	</div>
+	<div class="temperature-data-collection"
+			 ng-if="!$ctrl.temperatures.length > 0">
+		No temperature values.
+	</div>
+</div>

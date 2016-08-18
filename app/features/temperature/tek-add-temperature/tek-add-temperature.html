@@ -1,0 +1,11 @@
+<section class="add-temperature">
+	<h2>Add a value</h2>
+	<form ng-submit="$ctrl.addTemperature()">
+		<div>
+			{{$ctrl.error}}
+		</div>
+		<input placeholder="Enter a temperature"
+					 ng-model="$ctrl.newTemp">
+		<button type="submit">Add</button>
+	</form>
+</section>

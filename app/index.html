@@ -11,8 +11,20 @@
 
 		<!-- module definitions first -->
 		<script src="main/index.js"></script>
+		<script src="features/temperature/index.js"></script>
+
+		<!-- components and services -->
+		<script src="features/temperature/services/temperatures.service.js"></script>
+    <script src="features/temperature/tek-temperature-data/tek-temperature-data.component.js"></script>
+    <script src="features/temperature/tek-add-temperature/tek-add-temperature.component.js"></script>
+
+
 	</head>
 	<body>
 		<h1>Temperature Calculator Demo</h1>
+		<div>
+			<tek-temperature-data></tek-temperature-data>
+			<tek-add-temperature></tek-add-temperature>
+		</div>
 	</body>
 </html>
