@@ -23,7 +23,7 @@ function getTemperatures() {
 }
 
 function addTemperature(newTemp) {
-  if ((!Number.parseFloat(newTemp) || !Number.parseInt(newTemp)) && newTemp != 0) {
+  if (newTemp === '' || (!Number.parseFloat(newTemp) || !Number.parseInt(newTemp)) && newTemp != 0) {
     return;
   }
 
