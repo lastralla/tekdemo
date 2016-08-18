@@ -1,9 +1,9 @@
 angular
   .module('tekdemo.temperature')
   .component('tekCalculationsDisplay', {
-  	bindings: {
-  		temps: '<'
-  	},
+    bindings: {
+      temps: '<'
+    },
     templateUrl: 'features/temperature/tek-calculations-display/tek-calculations-display.html',
     controller: CalculationsDisplayController
   });
